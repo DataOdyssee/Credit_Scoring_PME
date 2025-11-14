@@ -72,6 +72,7 @@ model, preprocess = load_model()
 # ---------------------------------------------
 st.title("💼 Scoring Crédit — PME")
 st.write("Analysez le risque de défaut d'une PME grâce à un modèle statistique avancé.")
+st.write("Réalisé par Alex DARGA, Analyste statisticien.")
 
 st.markdown("---")
 
@@ -186,4 +187,5 @@ if st.button("🧮 Calculer le Score"):
     ax.bar(["Probabilité de défaut"], [proba_default])
     ax.set_ylim(0, 1)
     ax.set_ylabel("Probabilité")
+
     st.pyplot(fig)
