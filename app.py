@@ -71,7 +71,7 @@ model, preprocess = load_model()
 # Interface utilisateur
 # ---------------------------------------------
 st.title("💼 Scoring Crédit — PME")
-st.write("Analysez le risque de défaut d'une PME grâce à un modèle statistique avancé.")
+st.write("Analyse du risque de défaut d'une PME grâce à un modèle statistique (modèle logistique).")
 st.write("Réalisé par Alex DARGA, Analyste statisticien.")
 st.write("Pour plus de détails sur la conception du projet : https://github.com/DataOdyssee/Credit_Scoring_PME.")
 
@@ -190,5 +190,6 @@ if st.button("🧮 Calculer le Score"):
     ax.set_ylabel("Probabilité")
 
     st.pyplot(fig)
+
 
 
