@@ -13,7 +13,13 @@ L'application repose sur :
 - des **explications de type SHAP** pour comprendre la contribution des variables.
 
 ---
+🌐 🔗 Démo en ligne de l’application
 
+Vous pouvez tester l'application directement ici :
+
+👉 Démo Streamlit : [https://your-demo-link.streamlit.app](https://creditscoringpme-jxhqrqmycsbzmw5tddfwhd.streamlit.app/)
+
+(remplace par ton lien une fois déployée)
 ## 📂 2. Structure du projet
 
 ```
@@ -91,4 +97,4 @@ streamlit run app.py
 ---
 ## 📝 Auteurs
 
-Projet réalisé par **Alex DARGA, Analyste statisticien** dans un but pédagogique.
+Projet réalisé par **Alex DARGA, Analyste statisticien**.
